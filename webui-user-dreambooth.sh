@@ -29,7 +29,7 @@ export XFORMERS_PACKAGE="xformers==0.0.21"
 # If you changed the name of the dreambooth extension directory, change it below
 export REQS_FILE="./extensions/sd_dreambooth_extension/requirements.txt"
 # Uncomment to skip auto-install on run.
-# export DREAMBOOTH_SKIP_INSTALL=True
+export DREAMBOOTH_SKIP_INSTALL=True
 # Fixed git repos
 #export K_DIFFUSION_PACKAGE=""
 #export GFPGAN_PACKAGE=""
